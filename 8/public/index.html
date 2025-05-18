@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejemplo .includes()</title>
+  <script src="script.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-green-100 via-white to-emerald-100 min-h-screen flex items-center justify-center p-6">
+  <div class="w-full max-w-xl bg-white shadow-xl rounded-2xl p-8 space-y-8">
+    <h1 class="text-3xl font-bold text-center text-emerald-700 mb-6">Ejemplos de <span class="text-green-600">.includes()</span></h1>
+    <section>
+      <button id="btn-admin" class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-6 py-2 rounded-lg mb-2">¿Contiene "admin"?</button>
+      <p id="res-admin" class="text-gray-700"></p>
+    </section>
+    <section>
+      <button id="btn-verde" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-lg mb-2">¿Contiene "verde"?</button>
+      <p id="res-verde" class="text-gray-700"></p>
+    </section>
+    <section>
+      <input id="input-num" type="number" placeholder="Número" class="border rounded px-3 py-1 mr-2">
+      <button id="btn-num" class="bg-lime-500 hover:bg-lime-600 text-white font-semibold px-6 py-2 rounded-lg mb-2">Agregar si no existe</button>
+      <p id="res-num" class="text-gray-700"></p>
+    </section>
+  </div>
+</body>
+</html>

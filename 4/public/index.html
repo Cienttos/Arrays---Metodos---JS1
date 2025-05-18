@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejemplo .shift()</title>
+  <script src="script.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-6">
+  <h1 class="text-3xl font-bold text-blue-600 mb-6">Ejemplos de .shift()</h1>
+
+  <section class="w-full max-w-md space-y-6">
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Numeros</h2>
+      <button id="btn-numeros" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Eliminar primer número</button>
+      <ul id="lista-numeros" class="list-disc ml-5 mt-2 text-gray-700"></ul>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Mensajes</h2>
+      <button id="btn-mensajes" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Eliminar primer mensaje</button>
+      <ul id="lista-mensajes" class="list-disc ml-5 mt-2 text-gray-700"></ul>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Cola de atención</h2>
+      <button id="btn-cola" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Atender primer cliente</button>
+      <ul id="lista-cola" class="list-disc ml-5 mt-2 text-gray-700"></ul>
+    </div>
+  </section>
+</body>
+</html>

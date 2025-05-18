@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejemplo .filter()</title>
+  <script src="script.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-green-100 via-white to-lime-100 min-h-screen flex items-center justify-center p-6">
+  <div class="w-full max-w-xl bg-white shadow-xl rounded-2xl p-8 space-y-8">
+    <h1 class="text-3xl font-bold text-center text-lime-700 mb-6">Ejemplos de <span class="text-green-600">.filter()</span></h1>
+    <section>
+      <button id="btn-mayores10" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-lg mb-2">Números mayores a 10</button>
+      <ul id="lista-mayores10" class="list-disc pl-5 text-gray-700"></ul>
+    </section>
+    <section>
+      <button id="btn-palabras" class="bg-lime-500 hover:bg-lime-600 text-white font-semibold px-6 py-2 rounded-lg mb-2">Palabras &gt; 5 letras</button>
+      <ul id="lista-palabras" class="list-disc pl-5 text-gray-700"></ul>
+    </section>
+    <section>
+      <button id="btn-activos" class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-6 py-2 rounded-lg mb-2">Usuarios activos</button>
+      <ul id="lista-activos" class="list-disc pl-5 text-gray-700"></ul>
+    </section>
+  </div>
+</body>
+</html>

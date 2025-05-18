@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejemplo .splice()</title>
+  <script src="script.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-6">
+  <h1 class="text-3xl font-bold text-purple-600 mb-6">Ejemplos de .splice()</h1>
+
+  <section class="w-full max-w-md space-y-6">
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Letras</h2>
+      <p id="antes-letras" class="text-sm text-gray-500 mb-2"></p>
+      <button id="btn-letras" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Eliminar 2 letras desde posición 1</button>
+      <ul id="lista-letras" class="list-disc ml-5 mt-4 text-gray-700"></ul>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Nombres</h2>
+      <p id="antes-nombres" class="text-sm text-gray-500 mb-2"></p>
+      <button id="btn-nombres" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Insertar nombre en 2da posición</button>
+      <ul id="lista-nombres" class="list-disc ml-5 mt-4 text-gray-700"></ul>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Frutas</h2>
+      <p id="antes-frutas" class="text-sm text-gray-500 mb-2"></p>
+      <button id="btn-frutas" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Reemplazar 2 frutas</button>
+      <ul id="lista-frutas" class="list-disc ml-5 mt-4 text-gray-700"></ul>
+    </div>
+
+  </section>
+</body>
+</html>

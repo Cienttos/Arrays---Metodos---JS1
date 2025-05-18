@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Método .pop()</title>
+  <script src="script.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-start p-6">
+  <h1 class="text-3xl font-bold text-indigo-600 mb-6">Ejemplos de .pop()</h1>
+
+  <section class="w-full max-w-md space-y-6">
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Animales</h2>
+      <button id="btn-animales" class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600">Eliminar último animal</button>
+      <p class="mt-2 text-sm text-gray-600" id="animal-eliminado"></p>
+      <ul id="lista-animales" class="list-disc ml-5 mt-2 text-gray-700"></ul>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Productos</h2>
+      <button id="btn-productos" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Quitar último producto</button>
+      <p class="mt-2 text-sm text-gray-600" id="producto-eliminado"></p>
+      <ul id="lista-productos" class="list-disc ml-5 mt-2 text-gray-700"></ul>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-gray-800 mb-2">Vaciar Datos</h2>
+      <button id="btn-datos" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Vaciar todo con .pop()</button>
+      <p class="mt-2 text-sm text-gray-600" id="datos-eliminados"></p>
+    </div>
+  </section>
+</body>
+</html>
